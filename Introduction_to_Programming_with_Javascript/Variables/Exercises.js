@@ -10,7 +10,7 @@ let age = function (startingAge) {
   
   console.log(`You are ${futureAge} years old.`)
   
-  for (i=0; i<loopDuration; i++) {
+  for (let i=0; i<loopDuration; i++) {
     futureAge += ageIncrement;
     console.log(`In ${ageIncrement * (i +1)} years, you will be ${futureAge}.`);
   }
