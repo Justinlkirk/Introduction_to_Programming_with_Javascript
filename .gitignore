@@ -1,2 +1,2 @@
 #File types to ignore on push
-Introduction_to_Programming_with_Javascript/Input_Output/*.json
+**/**/*.json
